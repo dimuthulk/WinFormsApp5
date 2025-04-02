@@ -12,24 +12,31 @@ namespace WinFormsApp5
             int i = 0;
 
             // Using while loop
-            //while (i <= 9)
-            //{
-            //    richTextBox1.Text += i + "\n";
-            //    i++;
-            //}
+            while (i <= 9)
+            {
+                if (i > 5)
+                    break;
+                richTextBox1.Text += i + "\n";
+                i++;
+            }
 
             // Using for loop
             //for (int j = 0; j <= 9; j++)
             //{
+            //    if (j > 5)
+            //        break;
+
             //    richTextBox1.Text += j + "\n";
             //}
 
             // Using do while loop
-            do
-            {
-                richTextBox1.Text += i + "\n";
-                i++;
-            } while (i <= 9);
+            //do
+            //{
+            //    if(i>5)
+            //    break;
+            //    richTextBox1.Text += i + "\n";
+            //    i++;
+            //} while (i <= 9);
         }
     }
  }
