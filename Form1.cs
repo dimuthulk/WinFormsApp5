@@ -10,11 +10,26 @@ namespace WinFormsApp5
         private void button1_Click(object sender, EventArgs e)
         {
             int i = 0;
-            while (i <= 9)
+
+            // Using while loop
+            //while (i <= 9)
+            //{
+            //    richTextBox1.Text += i + "\n";
+            //    i++;
+            //}
+
+            // Using for loop
+            //for (int j = 0; j <= 9; j++)
+            //{
+            //    richTextBox1.Text += j + "\n";
+            //}
+
+            // Using do while loop
+            do
             {
                 richTextBox1.Text += i + "\n";
                 i++;
-            }
+            } while (i <= 9);
         }
     }
  }
