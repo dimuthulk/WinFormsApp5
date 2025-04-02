@@ -6,5 +6,15 @@ namespace WinFormsApp5
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int i = 0;
+            while (i <= 9)
+            {
+                richTextBox1.Text += i + "\n";
+                i++;
+            }
+        }
     }
-}
+ }
